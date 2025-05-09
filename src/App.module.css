@@ -1,0 +1,41 @@
+.checkbox-wrapper {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.development-block {
+  background: white;
+  border: 1px solid black;
+  min-width: 300px;
+  padding: 40px;
+}
+.button-disabled {
+  cursor: not-allowed;
+}
+.app-button {
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+}
+.cat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.cat-image {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: #ff0000;
+  font-weight: bold;
+}
